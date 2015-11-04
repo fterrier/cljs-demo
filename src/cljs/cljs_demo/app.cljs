@@ -8,7 +8,7 @@
 
 (defcomponent app [app owner]
   (render [_]
-          (dom/div "test 123")))
+          (dom/div )))
 
 (defn main []
     (om/root app app-state

@@ -1,1 +1,0 @@
-{"version":3,"file":"\/Users\/fterrier\/projects\/cljs-demo\/resources\/public\/js\/out\/pylos\/game\/state.js","sources":["state.cljs"],"lineCount":9,"mappings":";AAAA;;AAGA,GAAA,OAASA;AAAT;AAAA,AAAA,AAASA,6BAAU,yBAAA,zBAACC","names":["pylos.game.state\/app-state","cljs.core\/atom"]}
