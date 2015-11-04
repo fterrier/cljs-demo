@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 1.7.122
+{:name pylos.game.state, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses nil, :requires nil, :imports nil, :defs {app-state {:name pylos.game.state/app-state, :file "src/cljs/cljs_demo/state.cljs", :line 4, :column 1, :end-line 4, :end-column 19, :meta {:file "/Users/fterrier/projects/cljs-demo/src/cljs/cljs_demo/state.cljs", :line 4, :column 10, :end-line 4, :end-column 19}}}}
