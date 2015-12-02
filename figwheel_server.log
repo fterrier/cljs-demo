@@ -1,260 +1,34 @@
 Figwheel: focusing on build-ids (app)
 [0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/app/figwheel/connect.cljs
- at clojure.core$ex_info.invoke (core.clj:4593)
-    cljs.compiler$compile_file$fn__3598.invoke (compiler.cljc:1344)
-    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
-    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
-    cljs.closure$compile_dir.invoke (closure.clj:438)
-    cljs.closure$eval4042$fn__4043.invoke (closure.clj:478)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    cljs.closure$eval4055$fn__4056.invoke (closure.clj:492)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
-    cljs.closure$build.invoke (closure.clj:1674)
-    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
-    figwheel_sidecar.auto_builder$default_build_options$fn__16233.invoke (auto_builder.clj:61)
-    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16279.invoke (auto_builder.clj:201)
-    figwheel_sidecar.auto_builder$warning$fn__16230.invoke (auto_builder.clj:57)
-    clojurescript_build.auto$time_build$fn__16033.invoke (auto.clj:56)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$error$fn__16042.invoke (auto.clj:72)
-    clojurescript_build.auto$before$fn__16036.invoke (auto.clj:61)
-    clojurescript_build.auto$make_conditional_builder$fn__16054.invoke (auto.clj:104)
-    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojure.core$mapv.invoke (core.clj:6616)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141$fn__16146.invoke (auto.clj:187)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141.invoke (auto.clj:178)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/app/figwheel/connect.cljs
- at clojure.core$ex_info.invoke (core.clj:4593)
-    cljs.compiler$compile_file$fn__3598.invoke (compiler.cljc:1344)
-    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
-    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
-    cljs.closure$compile_dir.invoke (closure.clj:438)
-    cljs.closure$eval4042$fn__4043.invoke (closure.clj:478)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    cljs.closure$eval4055$fn__4056.invoke (closure.clj:492)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
-    cljs.closure$build.invoke (closure.clj:1674)
-    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
-    figwheel_sidecar.auto_builder$default_build_options$fn__16233.invoke (auto_builder.clj:61)
-    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16279.invoke (auto_builder.clj:201)
-    figwheel_sidecar.auto_builder$warning$fn__16230.invoke (auto_builder.clj:57)
-    clojurescript_build.auto$time_build$fn__16033.invoke (auto.clj:56)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$error$fn__16042.invoke (auto.clj:72)
-    clojurescript_build.auto$before$fn__16036.invoke (auto.clj:61)
-    clojurescript_build.auto$make_conditional_builder$fn__16054.invoke (auto.clj:104)
-    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojure.core$mapv.invoke (core.clj:6616)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141$fn__16146.invoke (auto.clj:187)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141.invoke (auto.clj:178)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-clojure.lang.ExceptionInfo: failed compiling file:target/figwheel_temp/app/figwheel/connect.cljs
- at clojure.core$ex_info.invoke (core.clj:4593)
-    cljs.compiler$compile_file$fn__3598.invoke (compiler.cljc:1344)
-    cljs.compiler$compile_file.invoke (compiler.cljc:1306)
-    cljs.compiler$compile_root.invoke (compiler.cljc:1381)
-    cljs.closure$compile_dir.invoke (closure.clj:438)
-    cljs.closure$eval4042$fn__4043.invoke (closure.clj:478)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    cljs.closure$eval4055$fn__4056.invoke (closure.clj:492)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojurescript_build.core.CompilableSourcePaths._compile (core.clj:19)
-    cljs.closure$build.invoke (closure.clj:1674)
-    clojurescript_build.core$build_source_paths_STAR_.invoke (core.clj:160)
-    figwheel_sidecar.auto_builder$default_build_options$fn__16233.invoke (auto_builder.clj:61)
-    figwheel_sidecar.auto_builder$insert_figwheel_connect_script$fn__16279.invoke (auto_builder.clj:201)
-    figwheel_sidecar.auto_builder$warning$fn__16230.invoke (auto_builder.clj:57)
-    clojurescript_build.auto$time_build$fn__16033.invoke (auto.clj:56)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$after$fn__16039.invoke (auto.clj:65)
-    clojurescript_build.auto$error$fn__16042.invoke (auto.clj:72)
-    clojurescript_build.auto$before$fn__16036.invoke (auto.clj:61)
-    clojurescript_build.auto$make_conditional_builder$fn__16054.invoke (auto.clj:104)
-    clojure.core$mapv$fn__6727.invoke (core.clj:6616)
-    clojure.lang.PersistentVector.reduce (PersistentVector.java:333)
-    clojure.core$reduce.invoke (core.clj:6518)
-    clojure.core$mapv.invoke (core.clj:6616)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141$fn__16146.invoke (auto.clj:187)
-    clojurescript_build.auto$autobuild_STAR_$fn__16140$state_machine__9977__auto____16141.invoke (auto.clj:178)
-Figwheel: focusing on build-ids (app)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.25 seconds.[0m
-notifying browser that file changed:  resources/public/js/out/goog/deps.js
-notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /cljs_demo/core.js
-notifying browser that file changed:  /cljs_demo/app.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-java.lang.AssertionError: No ns form found in src/cljs/cljs_demo/state.cljs
- at cljs.analyzer$parse_ns$fn__2573.invoke (analyzer.cljc:2721)
-    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2675)
-    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2666)
-    cljs.compiler$compile_root$fn__3622.invoke (compiler.cljc:1374)
-    clojure.core$map$fn__4553.invoke (core.clj:2624)
-    clojure.lang.LazySeq.sval (LazySeq.java:40)
-    clojure.lang.LazySeq.seq (LazySeq.java:49)
-    clojure.lang.RT.seq (RT.java:507)
-    clojure.core/seq (core.clj:137)
-    clojure.core$map$fn__4553.invoke (core.clj:2616)
-    clojure.lang.LazySeq.sval (LazySeq.java:40)
-    clojure.lang.LazySeq.seq (LazySeq.java:49)
-    clojure.lang.Cons.next (Cons.java:39)
-    clojure.lang.RT.next (RT.java:674)
-    clojure.core/next (core.clj:64)
-    clojure.core.protocols/fn (protocols.clj:170)
-    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
-    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
-    clojure.core.protocols/fn (protocols.clj:101)
-    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
-    clojure.core$reduce.invoke (core.clj:6519)
-    cljs.js_deps$build_index.invoke (js_deps.cljc:128)
-    cljs.js_deps$dependency_order.invoke (js_deps.cljc:168)
-    cljs.compiler$compile_root.invoke (compiler.cljc:1373)
-    cljs.closure$compile_dir.invoke (closure.clj:438)
-    cljs.closure$eval4042$fn__4043.invoke (closure.clj:478)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    cljs.closure$eval4055$fn__4056.invoke (closure.clj:492)
-    cljs.closure$eval3994$fn__3995$G__3985__4002.invoke (closure.clj:383)
-    clojurescript_build.core.CompilableSourcePaths/fn (core.clj:20)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.532 seconds.[0m
-notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /pylos/game/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.386 seconds.[0m
-notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-clojure.lang.ExceptionInfo: Only :as and :refer options supported in :require / :require-macros; offending spec: [cljs-demo.state :refer  [app-state]] at line 1 src/cljs/cljs_demo/app.cljs
- at clojure.core$ex_info.invoke (core.clj:4593)
-    cljs.analyzer$error.invoke (analyzer.cljc:543)
-    cljs.analyzer$error.invoke (analyzer.cljc:541)
-    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1696)
-    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1732)
-    clojure.lang.AFn.applyToHelper (AFn.java:171)
-    clojure.lang.AFn.applyTo (AFn.java:144)
-    clojure.core$apply.invoke (core.clj:636)
-    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
-    clojure.lang.RestFn.invoke (RestFn.java:408)
-    clojure.core$map$fn__4553.invoke (core.clj:2622)
-    clojure.lang.LazySeq.sval (LazySeq.java:40)
-    clojure.lang.LazySeq.seq (LazySeq.java:49)
-    clojure.lang.Cons.next (Cons.java:39)
-    clojure.lang.RT.boundedLength (RT.java:1735)
-    clojure.lang.RestFn.applyTo (RestFn.java:130)
-    clojure.core$apply.invoke (core.clj:634)
-    cljs.analyzer$eval2300$fn__2302$fn__2307.invoke (analyzer.cljc:1919)
-    clojure.core.protocols/fn (protocols.clj:167)
-    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
-    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
-    clojure.core.protocols/fn (protocols.clj:101)
-    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
-    clojure.core$reduce.invoke (core.clj:6519)
-    cljs.analyzer$eval2300$fn__2302.invoke (analyzer.cljc:1902)
-    clojure.lang.MultiFn.invoke (MultiFn.java:251)
-    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2383)
-    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2388)
-    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2409)
-    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2518)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[31mCompiling "resources/public/js/dev.js" failed.[0m
-clojure.lang.ExceptionInfo: Only :as and :refer options supported in :require / :require-macros; offending spec: [cljs-demo.state :refer  [app-state]] at line 1 src/cljs/cljs_demo/app.cljs
- at clojure.core$ex_info.invoke (core.clj:4593)
-    cljs.analyzer$error.invoke (analyzer.cljc:543)
-    cljs.analyzer$error.invoke (analyzer.cljc:541)
-    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1696)
-    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1732)
-    clojure.lang.AFn.applyToHelper (AFn.java:171)
-    clojure.lang.AFn.applyTo (AFn.java:144)
-    clojure.core$apply.invoke (core.clj:636)
-    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
-    clojure.lang.RestFn.invoke (RestFn.java:408)
-    clojure.core$map$fn__4553.invoke (core.clj:2622)
-    clojure.lang.LazySeq.sval (LazySeq.java:40)
-    clojure.lang.LazySeq.seq (LazySeq.java:49)
-    clojure.lang.Cons.next (Cons.java:39)
-    clojure.lang.RT.boundedLength (RT.java:1735)
-    clojure.lang.RestFn.applyTo (RestFn.java:130)
-    clojure.core$apply.invoke (core.clj:634)
-    cljs.analyzer$eval2300$fn__2302$fn__2307.invoke (analyzer.cljc:1919)
-    clojure.core.protocols/fn (protocols.clj:167)
-    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
-    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
-    clojure.core.protocols/fn (protocols.clj:101)
-    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
-    clojure.core$reduce.invoke (core.clj:6519)
-    cljs.analyzer$eval2300$fn__2302.invoke (analyzer.cljc:1902)
-    clojure.lang.MultiFn.invoke (MultiFn.java:251)
-    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2383)
-    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2388)
-    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2409)
-    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2518)
-Figwheel: focusing on build-ids (app)
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.627 seconds.[0m
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.161 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/goog/deps.js
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
 notifying browser that file changed:  /cljs_demo/state.js
 notifying browser that file changed:  /cljs_demo/core.js
 notifying browser that file changed:  /cljs_demo/app.js
-sending changed CSS file: resources/public/css/styles.css
-sending changed CSS file: resources/public/css/styles.css
 [0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 1.738 seconds.[0m
+WARNING: todo at line 9 is being replaced at line 13 src/cljs/cljs_demo/app.cljs
+WARNING: ->todo at line 9 is being replaced at line 13 src/cljs/cljs_demo/app.cljs
+[32mSuccessfully compiled "resources/public/js/dev.js" in 1.072 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
 notifying browser that file changed:  /cljs_demo/app.js
 [0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 2.258 seconds.[0m
+WARNING: todo at line 9 is being replaced at line 13 src/cljs/cljs_demo/app.cljs
+WARNING: ->todo at line 9 is being replaced at line 13 src/cljs/cljs_demo/app.cljs
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.531 seconds.[0m
+notifying browser that file changed:  /cljs_demo/app.js
+[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.463 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
 notifying browser that file changed:  /cljs_demo/app.js
 [0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-WARNING: Use of undeclared Var cljs-demo.state/initial-state at line 9 src/cljs/cljs_demo/state.cljs
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.544 seconds.[0m
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.568 seconds.[0m
+notifying browser that file changed:  /cljs_demo/app.js
+[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.348 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /cljs_demo/state.js
+notifying browser that file changed:  /cljs_demo/app.js
 [0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-WARNING: Use of undeclared Var cljs-demo.state/initial-state at line 9 src/cljs/cljs_demo/state.cljs
-[32mSuccessfully compiled "resources/public/js/dev.js" in 1.25 seconds.[0m
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-WARNING: Use of undeclared Var cljs-demo.state/change-cell at line 16 src/cljs/cljs_demo/state.cljs
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.544 seconds.[0m
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-WARNING: Use of undeclared Var cljs-demo.state/change-cell at line 16 src/cljs/cljs_demo/state.cljs
-[32mSuccessfully compiled "resources/public/js/dev.js" in 1.34 seconds.[0m
+[32mSuccessfully compiled "resources/public/js/dev.js" in 0.312 seconds.[0m
 notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 1.171 seconds.[0m
-notifying browser that file changed:  resources/public/js/out/cljs_deps.js
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 0.994 seconds.[0m
-notifying browser that file changed:  /cljs_demo/state.js
-[0mCompiling "resources/public/js/dev.js" from ["src/cljs" "src/cljc"]...
-[32mSuccessfully compiled "resources/public/js/dev.js" in 1.341 seconds.[0m
 notifying browser that file changed:  /cljs_demo/app.js

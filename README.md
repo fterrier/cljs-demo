@@ -1,32 +1,47 @@
 # cljs-demo
 
-FIXME: description
+This is a small clojurescript demo with figwheel.
 
-## Installation
+## Requirements
 
-Download from http://example.com/FIXME.
+If you want the full power of your terminal in the ClojureScript REPL, first install `rlwrap`and then start the REPL:
+
+```
+brew install rlwrap
+```
 
 ## Usage
 
-FIXME: explanation
+To start the REPL:
+```
+rlwrap lein repl
+```
 
-    $ java -jar cljs-demo-0.1.0-standalone.jar [args]
+In the REPL, start the system using :
 
-## Options
+```
+(reset)
+```
+Then go to `http://localhost:3449`.
 
-FIXME: listing of options this app accepts.
+To connect to a ClojureScript REPL in your browser, type in :
 
-## Examples
+```
+(cljs-repl)
+```
 
-...
+Now you can manipulate the browser and inspect/change its state:
 
-### Bugs
+```
+(js/alert "123")
+cljs-demo.state/app-state
+```
 
-...
+To quit the ClojureScript REPL
 
-### Any Other Sections
-### That You Think
-### Might be Useful
+```
+:cljs/quit
+```
 
 ## License
 
