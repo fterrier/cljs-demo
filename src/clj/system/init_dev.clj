@@ -1,6 +1,7 @@
 (ns system.init-dev
   (:require
     [clojure.tools.namespace.repl :as repl]
+    [figwheel-sidecar.repl-api :as ra]
     [system.figwheel :refer :all]
     [com.stuartsierra.component :as component]))
 
@@ -8,7 +9,7 @@
 
 (defn init []
   (alter-var-root #'system
-                  (constantly (component/system-map :figwheel   (map->Figwheel figwheel-config)))))
+                  (constantly (component/system-map :figwheel (map->Figwheel figwheel-config)))))
 
 (defn start []
   (alter-var-root #'system component/start))
@@ -24,3 +25,6 @@
 (defn reset []
   (stop)
   (repl/refresh :after 'system.init-dev/go))
+
+(defn cljs-repl []
+  (ra/cljs-repl))

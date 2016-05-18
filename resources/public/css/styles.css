@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica, Arial";
+}
+
+.movie {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.movie img {
+    height: 250px;
+}
+
+.movie h2 {
+    text-align: center;
+}
+
+.movie-list {
+    display: flex;
+    padding: 0;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.movie-list > li {
+    border: 1px solid #454545;    
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+    list-style: none;
+    flex: 0 0 250px;
+}

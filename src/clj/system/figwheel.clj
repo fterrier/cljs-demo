@@ -10,7 +10,8 @@
    [{:id "app"
      :source-paths ["src/cljs" "src/cljc"]
      :figwheel {:websocket-host "localhost"
-                :on-jsload "cljs-demo.core/fig-reload"}
+                :on-jsload "cljs-demo.core/fig-reload"
+                :devcards true}
      :compiler {:main "cljs-demo.core"
                 :asset-path "js/out"
                 :output-to "resources/public/js/dev.js"
@@ -30,5 +31,3 @@
     (ra/stop-figwheel!)
     config))
 
-(defn cljs-repl []
-  (ra/cljs-repl))
